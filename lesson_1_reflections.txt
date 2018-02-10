@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Because if the old version of the file operates fine, but the new version of the file does not, using a diff can help us pinpoint what areas of the fils have changed, which can help narrow down areas that can contain typos or other errors to help remedy the problem (if any).
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Having access to the entire history of the file can help programmers by allowing them to see how code evolves. Also, for those who are introduced to some parts of code at a later date, looking at the history can allow programmers to understand how code has changed and developed over time. 
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    If we rely on automatic saving, we would have a bunch of commits, often with small changes here and there, which can overwhelm a user if they need to find a bug somewhere in their code. It can be convenient though if the user forgets to save their file(s), which means the user would not be able to perform a proper diff/file compare in the future. Some information may get lost. The Pro of manually choosing to create a commit is the user can save all of their changes at once, even if changes were made to multiple files. Now the programmer has a 'record' of all changes made during that instance, which, again, can help users (a) see the relationship between the changes made and (b) help discovers errors based on the changes made between 2 different commits.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git allows multiple files to be saved in one commit, because often code shares a relationship between mutilple files. Sometimes, programmers may need to make changes to various files, in different areas. These changes can have a strong impact on the rest of the code, so saving multiple files (as in a batch) is better. Google docs allows separate file saves, because often, there is no direct relationship between multiple files. One Doc file cannot negatively impact another file; they are not tied together as they are in code.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    git diff can be used to find the differences between two files.
+    git log can be used to show commit logs
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because I have the tool of technology, where if something I am working on breaks, I have the ability to go back into the code and find the error(s) made.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Programming (duh)
+	
