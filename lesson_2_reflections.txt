@@ -1,2 +1,4 @@
 What happens when you initialize a repository? Why do you need to do it?
-	You initialize a repository by navigating to a directory that does not contain the .git file. Then you run 'git init'. These creates the .git file in the directory. No commits have been initialized yet. But now the directory is transformed into a Git Repository. 
+	You initialize a repository by navigating to a directory that does not contain the .git file. Then you run 'git init'. These creates the .git file in the directory. No commits have been initialized yet. But now the directory is transformed into a Git Repository.
+	
+	
