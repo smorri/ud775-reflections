@@ -5,5 +5,8 @@ How is the staging area different from the working directory and the repository?
 	The staging area is an intermediate area between a commit and the working directory. It is a temporary holding cell before final commits are made.
 	
 How can you use the staging area to make sure you have one commit per logical change?
-	The staging area can be used as a holding cell. Basically, when a logical chage is made across one or more files, they are then added to the staging area. That way when the final commit is performed, all files within the staging area have some sort of relationship, and represent some single logical change. They are bundled together in other words. 
+	The staging area can be used as a holding cell. Basically, when a logical chage is made across one or more files, they are then added to the staging area. That way when the final commit is performed, all files within the staging area have some sort of relationship, and represent some single logical change. They are bundled together in other words.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+	Branches can help create duplicates of the master branch. These duplicates can allow programmers to use a sandboxed area to test a new feature, or implement other versions of the master branch. 
 
