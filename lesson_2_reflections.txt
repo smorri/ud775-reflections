@@ -2,4 +2,8 @@ What happens when you initialize a repository? Why do you need to do it?
 	You initialize a repository by navigating to a directory that does not contain the .git file. Then you run 'git init'. These creates the .git file in the directory. No commits have been initialized yet. But now the directory is transformed into a Git Repository.
 	
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-	The staging area is an intermediate area between a commit and the working directory. It is a temporary holding cell before final commits are made. 
+	The staging area is an intermediate area between a commit and the working directory. It is a temporary holding cell before final commits are made.
+	
+How can you use the staging area to make sure you have one commit per logical change?
+	The staging area can be used as a holding cell. Basically, when a logical chage is made across one or more files, they are then added to the staging area. That way when the final commit is performed, all files within the staging area have some sort of relationship, and represent some single logical change. They are bundled together in other words. 
+
