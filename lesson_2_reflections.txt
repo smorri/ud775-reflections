@@ -12,4 +12,6 @@ What are some situations when branches would be helpful in keeping your history 
 	
 How do the diagrams help you visualize the branch structure?
 	Git structures commits in a tree - like format. Sketching the diagrams of the branch structures can help 1) understand reachability, since the current commit has a pointer to its parent (or last revised commit) and 2) see which commit a branch was created from.
-
+	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?	
+	Merging two branches is self-explanatory --- it combines code from two different branches of code back into a singleton branch. We represent the merge in the diagram in such a way to illustrate the process of how a merge is constructed in Git.
