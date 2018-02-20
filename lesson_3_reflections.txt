@@ -8,7 +8,9 @@ automatically stay up-to-date with your remote repository?
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    Users can perform a branch from a commit. Once a branch is instantiated, the application takes a copy of the commit and all prev commits linked from the initial commit. Branches allow users to perform edits that do not directly affect the initial/commit and its subsequent paths.
+	A clone generates a copy of the commits and logs of a repository.
+	A fork is a Github exclusive feature that operates like a clone. But it clones repositorties from one Gitbug account to another. Forks still keep their reference to the original repository owner. 
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
