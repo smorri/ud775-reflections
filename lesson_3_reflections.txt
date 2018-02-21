@@ -15,7 +15,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    The last known state of a remote can help users detect merge conflicts. Suppose a user pulls the latest repo from Github. If the state of the repo, a commit OR the pointer to the last commit does not match that of the repo on the users machine, then there will be a conflict if a merge is performed because the state of both repos will be ahead or behind one another. Keeping a copy of the last state allows th euser to perform a diff and see differences between commits of both repos, and make the necessary changes such that the states match when the merge is completed.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
