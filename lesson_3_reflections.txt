@@ -20,7 +20,7 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    Files could be submitted back and forth to one or more users via Email. But this can be very time consuming, and inconvenient because it comes with a lot of overhead. There are also other cloud based tools available (like Dropbox), but those tools do not offer users to provide a message with changes they made to the code. Dropbox does keep a list of older files with timestamps.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
