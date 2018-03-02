@@ -24,6 +24,5 @@ and what would be harder?
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
-
-    Fill in your answer here    
+	Branches can help create duplicates of the master branch. These duplicates can allow programmers to use a sandboxed area to test a new feature, or implement other versions of the master branch. When changes are made directly to master they already are applied to the main branch, no merging necessary.  
     
